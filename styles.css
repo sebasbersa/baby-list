@@ -56,9 +56,13 @@ body {
     color: #64ccce;
     width: 20px;
     height: 20px;
-    position: absolute;
-    /* animation: caer 5s  forwards cubic-bezier(0.22, 0.61, 0.36, 1); */
-    
+    position: fixed;
+}
+
+.already-have li{
+   font-style: italic !important;
+   color: #555 !important;
+   
 }
 
 @keyframes caer {

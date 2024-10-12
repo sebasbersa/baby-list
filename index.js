@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("mousemove", event => {
     handleCrearCuadradito(event);
 })
-document.addEventListener("click", event => {
+document.addEventListener("keydown", event => {
     crearCuadradito(event)
 })
 let prevPosition = {
