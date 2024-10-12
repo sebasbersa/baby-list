@@ -12,6 +12,17 @@ body {
     font-weight: bold;
     border-radius: 0 0 25px 25px;
 }
+
+.header_div {
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+}
+@media screen and (max-width: 900px) {
+    .header_div {
+        display: block;
+    }
+}
 .section-title {
     text-align: center;
     margin-top: 40px;
